@@ -1,0 +1,46 @@
+#%RAML 1.0
+title: OMDb API
+version: 1
+baseUri: http://www.omdbapi.com
+protocols: [HTTP]
+mediaType: application/json
+/:
+  get:
+    queryParameters:
+      apiKey:
+        type: string
+        example: PlzBanMe
+        description: api key used for authentication
+      i?:
+        type: string
+        example: tt1285016
+        description: A valid IMDb ID
+      t?:
+        type: string
+        example: "ghost busters"
+        description: Movie title to search for.
+      type?:
+        enum: [movie, series, episode]
+        example: movie
+        description: Type of result to return.
+      y?:
+        type: number
+        minimum: 1900
+        example: 1975
+        description: Year of release.
+      plot?:
+        enum: [short, full]
+        example: short
+        default: short
+        description: Return short or full plot.
+      r?:
+        enum: [json, xml]
+        default: json
+        example: json
+        description: The data type to return.
+      callback:
+        type: string
+        description: JSONP callback name.
+    responses:
+      200:
+      401:
