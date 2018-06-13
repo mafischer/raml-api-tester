@@ -1,6 +1,6 @@
 {
   "name": "raml-api-tester",
-  "version": "0.0.1",
+  "version": "0.1.0-alpha.1",
   "description": "Automatically test an api that conforms to a raml 1.0 spec.",
   "main": "lib/index.js",
   "bin": {
