@@ -1,0 +1,29 @@
+{
+  "name": "raml-api-tester",
+  "version": "0.0.1",
+  "description": "Automatically test an api that conforms to a raml 1.0 spec.",
+  "main": "lib/index.js",
+  "bin": {
+    "rat": "lib/cli.js"
+  },
+  "keywords": [
+    "raml",
+    "test",
+    "api"
+  ],
+  "man": [
+    "./lib/man/rat.1"
+  ],
+  "author": "Michael Fischer",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.1",
+    "raml-1-parser": "^1.1.42",
+    "randexp": "^0.4.9",
+    "request": "^2.86.0",
+    "yargs": "^11.0.0"
+  }
+}

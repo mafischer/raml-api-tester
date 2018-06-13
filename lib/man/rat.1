@@ -1,0 +1,24 @@
+.Dd June 6, 2018
+.Dt RAT 1
+.Sh NAME
+.Nm Rat
+.Nd A CLI tool used to automate the testing of a server that implements a raml spec.
+.Sh SYNOPSIS
+.Nm
+.Op Fl Fl baseURI Ar https://example.com
+.Op Fl Fl raml Ar /user/ubuntu/files/api.raml
+.Sh DESCRIPTION
+Automatically test api's that implement a RAML spec
+.Sh OPTIONS
+.Bl -tag -width -indent
+.It \-h
+display this screen
+.It \-\-baseURI
+provide the base uri for conducting the tests
+.It \-\-methodName
+select a specific method to test by name
+.It \-\-raml
+the absolute file path of the raml file being tested. (required)
+.It \-\-options
+the absolute file path to a json file containing options for rat
+.El

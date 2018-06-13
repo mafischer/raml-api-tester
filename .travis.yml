@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- lts/*
+cache:
+  directories:
+  - node_modules
+install:
+- npm install
+deploy:
+  provider: npm
+  email: michaelandrewfischer@gmail.com
+  api_key:
+    secure: fZG76Zo/OM/LEAvyLvoxQaT69g/lsmuTcLZ79NVv2s9Ykfavj1NR3XqIE9jIEtphqR9kwxPDPENnwL7zH9BaK8gpf2nXVaAzuh0yxut5QgW5K0nCW2gMpZTI7N/31BhOMuMY87nbF4QjteRLiy/THYN2ZUDKu1aeJLHLpEDtioEMU9D8ptNHuGmf6RKPsqsXLFU6vyYJaQthaMOdcrP/wTiaWDS2PHjBp9ZL321zXMOpAjc9LWZCuYDxuuEPjtIUoWXJNXM9It02FKAiZocGH8s9m3u+fYwfccoiQKIYDj5uO80N30Atdx4+oYoPuFWlUkbG5uDF1B/dwaQvhdlgX9pleCPnJPQj6z97w5seGxuzemdEvCibCBHgD2EJEY0sD+uOz1tdZCgiOhjdNz06u4FCFY2L40i/4fBQc4dtkBvvI0ZrtiIDEs6ptVSIkRruf+y+barQWxjrsvBKgbnlgXbPcbCRDuy3Eoo0rAUfzXuDS3SPYkuswR7+VuztaQJ6Khqyu28a1BvM4q95vYnbd3gayO7El+OcIZ2hU/V5oI3wWOqWO+N7W+m8Zz5JvmU87TD8h31tTKlcMFtZQLOpT1qtZdeig8BCiAxMbqWH+TRUaHe+dD9kO6gb2ztG8NTTCdLU6mNNe+n4kVz39vmk5GFfBLAWQsJ/yIC+ERSLGQY=
+  on:
+    tags: true
+    repo: mafischer/raml-api-tester
+    branch: master
