@@ -24,7 +24,7 @@ The [RAML](https://raml.org/) API Tester (RAT) is a simple library and cli that 
 Output of `rat -h`:
 ```
 NAME:              rat
-SYNOPSIS:          Rat [--baseURI https://example.com] [--raml /user/ubuntu/files/api.raml]
+SYNOPSIS:          rat [--baseURI https://example.com] [--raml /user/ubuntu/files/api.raml]
 DESCRIPTION:       Automatically test api's that implement a RAML spec
 OPTIONS:
                    -h
