@@ -15,6 +15,7 @@ The [RAML](https://raml.org/) API Tester (RAT) is a simple library and cli that 
 ## Usage
 
 ### Javascript Library
+- more to come on this
 
 ### CLI
 
