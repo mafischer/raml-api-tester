@@ -19,6 +19,8 @@ The [RAML](https://raml.org/) API Tester (RAT) is a simple library and cli that 
 
 ### CLI
 
+`npm install -g raml-api-tester`
+
 Output of `rat -h`:
 ```
 NAME:              rat
