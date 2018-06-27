@@ -1,3 +1,6 @@
 {
-  "headers": []
+  "headers": [],
+  "queryParams": {
+    "apiKey": "PlzBanMe"
+  }
 }
