@@ -3,6 +3,10 @@
   "version": "0.1.0-alpha.1",
   "description": "Automatically test an api that conforms to a raml 1.0 spec.",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mafischer/raml-api-tester.git"
+  },
   "bin": {
     "rat": "lib/cli.js"
   },
