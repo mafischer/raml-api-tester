@@ -19,8 +19,10 @@ The [RAML](https://raml.org/) API Tester (RAT) is a simple library and cli that 
 
 ### CLI
 
+#### Installaiton
 `npm install -g raml-api-tester`
 
+#### Help
 Output of `rat -h`:
 ```
 NAME:              rat
@@ -38,6 +40,21 @@ OPTIONS:
                    --optionsFile
                        the absolute file path to a json file containing options for rat
 ```
+
+#### Examples
+- example1
+    * `run.sh` example requires the [`jq`](https://stedolan.github.io/jq/download/) cli to be installed and in your **$PATH**
+    * This test runs against the [OMDB api](http://www.omdbapi.com/) and requires you to [obtain a free api key](http://www.omdbapi.com/apikey.aspx) to run the example
+    * macos & linux:
+        ```
+        cd examples/example1/
+        ./run.sh
+        ```
+    * windows:
+        ```
+        coming soon
+        ```
+
 
 ## Contributing
 
