@@ -25,7 +25,7 @@
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "moment": "^2.22.1",
-    "raml-1-parser": "^1.1.42",
+    "raml-1-parser": "^1.1.44",
     "randexp": "^0.4.9",
     "request": "^2.86.0",
     "yargs": "^11.0.0"
