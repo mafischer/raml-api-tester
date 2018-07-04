@@ -6,6 +6,7 @@ The [RAML](https://raml.org/) API Tester (RAT) is a simple library and cli that 
 
 [![Build Status](https://travis-ci.org/mafischer/raml-api-tester.svg?branch=master)](https://travis-ci.org/mafischer/raml-api-tester)
 [![npm version](https://badge.fury.io/js/raml-api-tester.svg)](https://badge.fury.io/js/raml-api-tester)
+[![dependencies](https://david-dm.org/mafischer/raml-api-tester.svg)](https://david-dm.org/mafischer/raml-api-tester)
 
 ### Known Limitations & Bugs
 - RAT is in an alpha release state, it's working for my use case but still needs a lot of work.
