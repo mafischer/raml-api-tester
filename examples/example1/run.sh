@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo "you can obtain a key for this example at: http://www.omdbapi.com/apikey.aspx"
 echo "please enter your api key"
 read -s apiKey

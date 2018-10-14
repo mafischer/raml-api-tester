@@ -53,7 +53,7 @@ OPTIONS:
         ```
     * windows:
         ```
-        coming soon
+        coming sooner if you submit a pr
         ```
 
 
