@@ -1,5 +1,12 @@
 # RAML API Tester
-
+```
+  ,,==.
+ //    `
+||      ,--~~~~-._ _(\--,_
+ \\._,-~   \      '    *  `o
+  `---~\( _/,___( /_/`---~~
+        ``==-    `==-,
+```
 The [RAML](https://raml.org/) API Tester (RAT) is a simple library and cli that can be used to test an enpoint serving the api implemenation of a RAML spec.
 
 ## Status
